@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const api = require(`./routes.index`);
+const api = require(`./routes/index`);
 const PORT = process.env.PORT || 3002;
 const app = express();
 // Middleware for parsing JSON and urlencoded form data
