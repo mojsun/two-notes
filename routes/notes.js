@@ -6,7 +6,7 @@ const uniqid = require("uniqid");
 
 // readfile function returns an array
 const getNotes = () => {
-  var noteStr = fs.readFileSync("./Develop/db/db.json", "utf-8");
+  var noteStr = fs.readFileSync("./db/db.json", "utf-8");
   return JSON.parse(noteStr);
 };
 
