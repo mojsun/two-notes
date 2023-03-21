@@ -15,6 +15,9 @@ Contact
 ## Installation
 
 please write "npm i" to install all the required packages in your local system.
+link of heroku app:
+
+https://safe-plateau-71069.herokuapp.com/notes
 
 ## Usage
 
