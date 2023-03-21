@@ -1,10 +1,10 @@
-const router = require(`express`).Router();
+const router = require("express").Router();
 const fs = require("fs");
 
 //unique id npm package
 const uniqid = require("uniqid");
 
-// readfile function returns an array
+// Readfile function returns an array
 const getNotes = () => {
   var noteStr = fs.readFileSync("./db/db.json", "utf-8");
   return JSON.parse(noteStr);
